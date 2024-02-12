@@ -1,0 +1,10 @@
+html {
+	font-size: 125%;
+	line-height: 1.1;
+}
+
+body {
+	/* Delete this comment */
+	background-color: #fefefe;
+	margin: 0;
+}

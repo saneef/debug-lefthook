@@ -1,0 +1,5 @@
+pre-commit:
+  commands:
+    stylelint:
+      glob: "*.css"
+      run: pnpm stylelint --fix {staged_files}

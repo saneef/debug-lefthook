@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-hudochenkov/order",
+    "stylelint-prettier/recommended"
+  ],
+  "plugins": ["stylelint-order"],
+  "rules": {
+    "selector-class-pattern": null,
+    "selector-no-vendor-prefix": null
+  }
+}
