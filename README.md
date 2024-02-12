@@ -1,5 +1,7 @@
 # Debugging Lefthook Issue: Linted files during pre-commit are not committed
 
+Issue: https://github.com/evilmartians/lefthook/issues/628
+
 ## Problem
 
 During commit, the Lefthook runs pre-commit commands. But, the changes made by the pre-commit command (especially `stylelint`) are not included in the commit.
