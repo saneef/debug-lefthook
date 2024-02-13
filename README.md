@@ -1,6 +1,8 @@
-# Debugging Lefthook Issue: Linted files during pre-commit are not committed
+# [Solved] Debugging Lefthook Issue: Linted files during pre-commit are not committed
 
 Issue: https://github.com/evilmartians/lefthook/issues/628
+
+✅ **Solution**: Use [`stage_fixed: true`](https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md#stage_fixed) with each `commands` where you need to commit linted files.
 
 ## Problem
 
